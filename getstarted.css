@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.discordapp.com/attachments/1151007007978049657/1166111848932835440/345816.jpg?ex=65494d4a&is=6536d84a&hm=9b6521f67a01efaa02d1625d47a7d9ce9fe2ec8168c27e36922c55795c806979&)
+}
+
+.header {
+    text-align: center;
+    background-color: #D46A6A;
+    width: 100%;
+    padding: 1%;
+}
+
+fieldset {
+    color: white;
+}
+
+legend {
+    text-align: center;
+}
+
+.header h1 {
+    color: #ffa600;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 680px) {
+    .header h1 {
+        font-size: 7vw;
+    }
+    fieldset {
+        font-size: 4vw;
+    }
+    input {
+        width: 15vw;
+    }
+}
