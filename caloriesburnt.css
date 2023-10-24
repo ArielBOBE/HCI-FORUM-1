@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     background-image: url(https://cdn.discordapp.com/attachments/1151007007978049657/1166111850140794910/6217064.png?ex=65494d4a&is=6536d84a&hm=a1177d826db1a1cb2a1e972542d3eb91879ab9b80b5e64342030f03c2d4528f1&)
 }
 .header {
